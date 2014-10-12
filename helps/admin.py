@@ -4,5 +4,5 @@ from django.contrib import admin
 from helps.models import User,Honor,Task
 
 admin.site.register(User)
-#admin.site.register(Honor)
-#admin.site.register(Task)
+admin.site.register(Honor)
+admin.site.register(Task)
